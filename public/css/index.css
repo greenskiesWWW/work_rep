@@ -1,0 +1,16 @@
+/* Base Style */
+
+.container
+{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.SingUp
+{
+    width: 105px;
+    height: 40px;
+
+    background: linear-gradient(101.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
+    border-radius: 4px;
+}
