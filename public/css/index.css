@@ -134,6 +134,20 @@ body
     transform: scale(0.9);
 }
 
+.main-box
+{
+    margin-top: 150px;
+}
+
+.main-box .text-box .main-text
+{
+    font-size: 52px;
+    font-family: 'Ruda';
+    font-weight: 600;
+    color: white;
+    line-height: 30px;
+}
+
 .galleries-box .info-cards .item
 {
     padding: 15px;
