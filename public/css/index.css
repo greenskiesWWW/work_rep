@@ -29,6 +29,12 @@ body::-webkit-scrollbar-thumb
     width: 1200px;
 }
 
+.nav-box
+{
+    display: flex;
+    
+}
+
 .SingUp
 {
     width: 105px;
