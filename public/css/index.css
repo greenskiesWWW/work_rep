@@ -149,6 +149,7 @@ body
 .main-box
 {
     margin-top: 150px;
+    display: flex;
 }
 
 .main-box .main-container .text-box .main-text
@@ -242,6 +243,12 @@ body
 .main-box .main-container .main-button-box .video-box .video-circle .play-img
 {
     margin-left: 3px;
+
+    pointer-events: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
 }
 
 .main-box .main-container .main-button-box .video-box:hover
@@ -295,6 +302,87 @@ body
     font-weight: 300;
     color: #D7D7D7;
     margin: 0;
+}
+
+.main-box .main-img-container .cat-img
+{
+    border-radius: 8px;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 38px;
+
+    pointer-events: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.main-box .main-img-container .purple-block
+{
+    background-color: #8A40FF;
+    border-radius: 8px;
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 340px;
+
+    pointer-events: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.main-box .main-img-container .paint-img
+{
+    border-radius: 8px;
+    width: 248px;
+    height: 248px;
+    position: absolute;
+    margin-top: -17px;
+    margin-left: 497px;
+
+    pointer-events: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.main-box .main-img-container .people-img
+{
+    border-radius: 8px;
+    width: 499px;
+    height: 493px;
+    position: absolute;
+    margin-top: 144px;
+    margin-left: 106px;
+
+    pointer-events: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.main-box .main-img-container .heart-img
+{
+    border-radius: 8px;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-top: 428px;
+    margin-left: 651px;
+
+    pointer-events: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
 }
 
 .galleries-box .info-cards .item
