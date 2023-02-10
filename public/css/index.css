@@ -20,6 +20,11 @@ body::-webkit-scrollbar-thumb
     border-radius: 10px;      
 }
 
+body
+{
+    background-color: #060A16 !important;
+}
+
 /* Base Style */
 
 .text-them
@@ -43,6 +48,13 @@ body::-webkit-scrollbar-thumb
 {
     display: flex;
     justify-content: center;
+}
+
+.nav-box .link-box .info-links 
+{
+    display: flex;
+    color: white;
+    text-decoration: none;
 }
 
 .SingUp
