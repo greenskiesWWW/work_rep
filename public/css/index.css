@@ -742,6 +742,19 @@ body
 }
 
 
+
+.galleries-box .boxer-img
+{
+    width: 82px;
+    height: 79px;
+}
+
+.galleries-box .g-img
+{
+    width: 209px;
+    height: 270px;
+}
+
 /* Animation */
   
 .Anim-block-show {
