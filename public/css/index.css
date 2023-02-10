@@ -137,3 +137,28 @@ body
 {
     cursor: pointer;
 }
+
+.galleries-box .galleries
+{
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.galleries-box .galleries-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 82px;
+    height: 80px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 30%);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
