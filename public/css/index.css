@@ -48,11 +48,14 @@ body
 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
 }
 
 .nav-box .link-box .info-links 
 {
     display: flex;
+    margin: 0;
 }
 
 .nav-box .link-box
@@ -63,19 +66,68 @@ body
 .info-links .nav-link
 {
     font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
     text-decoration: none;
     list-style: none;
     color: white;
     margin: 0 20px 0 20px;
+    transition: 0.2s;
 }
 
-.SingUp
+.info-links .nav-link:hover
+{
+    transition: 0.2s;
+    color: #5E23D9;
+}
+
+.login-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.login-box .nav-link
+{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin: 0 20px 0 20px;
+    transition: 0.2s;
+}
+
+.login-box .nav-link:hover
+{
+    transition: 0.2s;
+    color: #5E23D9;
+}
+
+.SingUp-button
 {
     width: 105px;
     height: 40px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    list-style: none;
+    transition: 0.4s;
+    cursor: pointer;
+    border: transparent;
 
     background: linear-gradient(101.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
     border-radius: 4px;
+}
+
+.SingUp-button:hover
+{
+    transition: 0.4s;
+    transform: scale(0.9);
 }
 
 .galleries-box .info-cards .item
