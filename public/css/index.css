@@ -22,6 +22,17 @@ body::-webkit-scrollbar-thumb
 
 /* Base Style */
 
+.text-them
+{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+}
+
 .container
 {
     margin: 0 auto;
@@ -46,7 +57,7 @@ body::-webkit-scrollbar-thumb
 .galleries-box .info-cards .item
 {
     border: 1px solid;
-    border-image-source: linear-gradient(134.83deg, rgba(197, 34, 228, 0.71) 0%, rgba(90, 25, 244, 0.72) 96.35%);
+    border-image-source: linear-gradient( rgba(197, 34, 228, 0.71), rgba(90, 25, 244, 0.72));
     border-radius: 4px;
 
 }
