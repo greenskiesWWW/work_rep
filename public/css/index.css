@@ -378,24 +378,18 @@ body
 .top-seller .slider .item
 {
     display: flex;
-
     width: 300px;
     height: 115px;
-    
     background: rgba(217, 217, 217, 0.08);
     backdrop-filter: blur(2px);
     /* Note: backdrop-filter has minimal browser support */
-    
     margin-bottom: 30px;
-
     border-radius: 4px;
-    transition: 1s all;
 }
 
 .top-seller .slider .item:hover
 {
     background: linear-gradient(104.35deg, rgba(179, 33, 231, 0.4) 29.82%, rgba(105, 27, 242, 0.4) 97.24%);
-    transition: 1s all;
 }
 
 .top-seller .slider .text-name
