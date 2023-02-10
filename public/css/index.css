@@ -135,13 +135,112 @@ body
     margin-top: 150px;
 }
 
-.main-box .text-box .main-text
+.main-box .main-container .text-box .main-text
 {
-    font-size: 52px;
+    font-size: 64px;
     font-family: 'Ruda';
     font-weight: 600;
     color: white;
-    line-height: 30px;
+    line-height: 20px;
+}
+
+.main-box .main-container .text-box .main-text .main-text-span
+{    
+    font-weight: 600;
+    font-family: 'Ruda';
+    color: white;
+    background: linear-gradient(259.74deg, #AF25D3 75.33%, #9725D6 85.93%, #5E23D9 98.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.main-box .main-container .text-box .lower-text
+{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: #D7D7D7;
+    line-height: 10px;
+}
+
+.main-box .main-container .main-button-box
+{
+    margin-top: 40px;
+}
+
+.main-box .main-container .main-button-box .button-box
+{
+    margin-right: 24px;
+}
+
+.main-box .main-container .explore-button
+{
+    width: 123px;
+    height: 54px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+
+    border: transparent;
+    background: linear-gradient(101.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.main-box .main-container .explore-button:hover
+{
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+
+.main-box .main-container .main-button-box
+{
+    display: flex;
+    align-items: center;
+}
+
+.main-box .main-container .main-button-box .video-box
+{
+    display: flex;
+    transition: 0.4s;
+    cursor: pointer;
+    align-items: center;
+}
+
+.main-box .main-container .main-button-box .video-box .video-circle
+{
+    width: 56px;
+    height: 56px;
+    border: 1px solid #5E23D9;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.main-box .main-container .main-button-box .video-box .video-circle .play-img
+{
+    margin-left: 3px;
+}
+
+.main-box .main-container .main-button-box .video-box:hover
+{
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+
+.main-box .main-container .main-button-box .video-box .video-text
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
 }
 
 .galleries-box .info-cards .item
