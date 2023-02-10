@@ -32,7 +32,7 @@ body::-webkit-scrollbar-thumb
 .nav-box
 {
     display: flex;
-    
+    justify-content: center;
 }
 
 .SingUp
