@@ -34,7 +34,7 @@ body
     font-weight: 700;
     font-size: 45px;
     line-height: 58px;
-
+    text-align: center;
     color: #FFFFFF;
 }
 
@@ -68,8 +68,60 @@ body
 
 .galleries-box .info-cards .item
 {
-    border: 1px solid;
-    border-image-source: linear-gradient( rgba(197, 34, 228, 0.71), rgba(90, 25, 244, 0.72));
-    border-radius: 4px;
+    padding: 15px;
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+}
 
+.galleries-box .info-cards .item img
+{
+    border-radius: 4px;
+}
+
+.image-boxer
+{
+    display: flex;
+}
+
+.left-bar-item
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    justify-content: space-between;
+}
+
+.info-cards
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.galleries-box .description-name
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 10px 0 0 0;
+}
+
+.galleries-box .description-subname
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    /* identical to box height */
+
+    margin: 0 0 10px 0;
+    color: #D7D7D7;
+}
+
+.galleries-box .arrow
+{
+    cursor: pointer;
 }
