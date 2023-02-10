@@ -834,6 +834,57 @@ body
     height: 270px;
 }
 
+.lasted-blog-box
+{
+
+}
+
+.lasted-blog-box .lasted-blog-box-text
+{
+    display: flex;
+    justify-content: center;
+}
+
+.lasted-blog-box .lasted-blog-box-text .lasted-blog-text
+{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+}
+
+.center-lasted-blog-box
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 38px;
+}
+
+.content-lasted-box
+{
+    width: 388px;
+    height: 540px;
+    /* margin-left: 19px; */
+    /* margin-right: 38px; */
+    
+    /* background-color: #C922E3; */
+    border-radius: 4px;
+    border: 1px solid purple;
+}
+
+.img-lasted-blog-box
+{
+    display: flex;
+    justify-content: center;
+}
+
+.blog-img
+{
+
+    margin-top: 24px;
+}
+
 /* Animation */
   
 .Anim-block-show {
