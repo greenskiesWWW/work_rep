@@ -434,23 +434,63 @@ body
     color: white;
 }
 
+.main-box .main-bottom-box .right-history-box
+{
+    margin-left: 30px;
+}
+
+.main-box .main-bottom-box .right-history-box .button-history-box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 63px;
+    margin-top: 28px;
+}
+
+.main-box .main-bottom-box .right-history-box .button-history-box .history-arrow-img
+{
+    height: 32px;
+    margin-top: 24px;
+}
+
 .main-box .main-bottom-box .right-history-box .history-button
 {
     width: 144px;
     height: 52px;
 
     border: 1px solid transparent;
-    border-image: linear-gradient(101.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
+    border-image: linear-gradient(45.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
     -moz-border-image: -moz-linear-gradient(rgba(201, 34, 227, 0.4) , rgba(153, 30, 234, 0.4), rgba(73, 23, 246, 0.4));
     -webkit-border-image: -webkit-linear-gradient(rgba(201, 34, 227, 0.4) , rgba(153, 30, 234, 0.4), rgba(73, 23, 246, 0.4));
     border-image-slice: 4;
+    cursor: pointer;
+    transition: 0.4s;
 
     background-color: transparent;
     border-radius: 4px;
     font-size: 18px;
     font-family: 'Open Sans';
     font-weight: 400;
-    color: white;
+    color: white;    
+}
+
+.main-box .main-bottom-box .right-history-box .history-button:hover
+{
+    transition: 0.4s;
+    transform: scale(0.9);
+}
+
+.main-box .main-bottom-box .right-history-box .history-views-box
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 86px;
+}
+
+.main-box .main-bottom-box .right-history-box .views-img-box
+{
+    margin-right: 60px;
 }
 
 .galleries-box .info-cards .item
