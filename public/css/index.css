@@ -47,14 +47,26 @@ body
 .nav-box
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .nav-box .link-box .info-links 
 {
     display: flex;
-    color: white;
+}
+
+.nav-box .link-box
+{
+    margin-left: 70px;
+}
+
+.info-links .nav-link
+{
+    font-family: 'Open Sans';
     text-decoration: none;
+    list-style: none;
+    color: white;
+    margin: 0 20px 0 20px;
 }
 
 .SingUp
