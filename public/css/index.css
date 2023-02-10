@@ -150,6 +150,7 @@ body
 {
     margin-top: 150px;
     display: flex;
+    margin-bottom: 150px;
 }
 
 .main-box .main-container .text-box .main-text
@@ -484,6 +485,11 @@ body
 .slider
 {
     display: flex;
+}
+
+.top-seller
+{
+    margin-top: 148px;
 }
 
 .top-seller .circle-box
