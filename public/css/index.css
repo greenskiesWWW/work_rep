@@ -229,3 +229,11 @@ body
     /* identical to box height */
     color: #FFFFFF;
 }
+
+.galleries-box .button-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
