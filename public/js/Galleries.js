@@ -63,3 +63,5 @@ $(document).ready(function(){
 			$(".lasted-blog-box").addClass("fade-in");
 	});
 });
+
+// Slider
