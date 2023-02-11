@@ -50,3 +50,16 @@ function openModalGalleries(target, ctarget)
         },1000)
     }
 }
+
+$(document).ready(function(){
+	$(window).scroll(function(){
+		if($(window).scrollTop() >= $(".nfts-block").offset().top - 800)
+            $(".nfts-block").addClass("fade-in");
+        if($(window).scrollTop() >= $(".galleries-box").offset().top - 800)
+			$(".galleries-box").addClass("fade-in");
+        if($(window).scrollTop() >= $(".top-seller").offset().top - 800)
+			$(".top-seller").addClass("fade-in");
+        if($(window).scrollTop() >= $(".lasted-blog-box").offset().top - 800)
+			$(".lasted-blog-box").addClass("fade-in");
+	});
+});

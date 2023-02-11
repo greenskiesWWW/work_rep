@@ -66,6 +66,9 @@ body
     justify-content: space-between;
     align-items: center;
     padding-top: 25px;
+
+    /* Animation  */
+    animation: fade-in .4s ease;
 }
 
 .nav-box .link-box .info-links 
@@ -156,6 +159,7 @@ body
 {
     margin-top: 150px;
     margin-bottom: 150px;
+
 }
 
 .main-box .main-container .text-box .main-text
@@ -607,6 +611,9 @@ body
 .nfts-block
 {
     margin-bottom: 130px;
+
+    /* Animation  */
+    opacity: 0;
 }
 
 .nfts-block .mid-item
@@ -670,6 +677,12 @@ body
     height: 88px;
     margin-bottom: 20px;
 }
+
+.galleries-box
+{
+    opacity: 0;
+}
+
 
 .galleries-box .info-cards .item
 {
@@ -775,6 +788,7 @@ body
 .top-seller
 {
     margin-top: 148px;
+    opacity: 0;
 }
 
 .top-seller .circle-box
@@ -980,6 +994,8 @@ body
     align-items: center;
     margin-bottom: 148px;
     margin-top: 108px;
+
+    opacity: 0;
 }
 
 .lasted-blog-box .lasted-blog-box-text
@@ -1306,11 +1322,24 @@ body
     animation: hideBlock 0.1s linear forwards;
 }
 
+.fade-in {
+    animation: fade-in .4s linear forwards;
+}
+
 @keyframes hideBlock {
     0% {
         opacity: 1;
     }
     100% {
         opacity: 0;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
