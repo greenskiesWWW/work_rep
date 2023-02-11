@@ -57,7 +57,7 @@ body
 .container
 {
     margin: 0 auto;
-    width: 1200px;
+    width: 1250px;
 }
 
 .nav-box
@@ -424,6 +424,33 @@ body
 }
 
 .main-box .main-bottom-box .right-history-box .button-history-box .history-arrow-img
+{
+    pointer-events: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.lasted-blog-box .blog-img
+{
+    pointer-events: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.lasted-blog-box .user-icon
+{
+    pointer-events: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.lasted-blog-box .readmore-img
 {
     pointer-events: none;
     -moz-user-select: none; 
@@ -980,6 +1007,7 @@ body
     justify-content: center;
     align-items: center;
     margin-right: 24px;
+    transition: 0.4s;
 }
 
 .share-box
@@ -991,7 +1019,145 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.4s;
 }
+
+.chat-box:hover
+{
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.share-box:hover
+{
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.footer
+{
+    margin-bottom: 56px;
+    display: flex;
+}
+
+.footer .container-footer
+{
+    display: flex;
+}
+
+.footer .container-footer .newsletter-box
+{
+    margin-right: 117px;
+}
+
+.footer .container-footer .newsletter-box .newsletter-text-box
+{
+    margin-bottom: 32px;
+}
+
+.footer .container-footer .bold-text
+{
+    font-size: 24px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    color: white;
+}
+
+.footer .container-footer .light-text
+{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: #D7D7D7;
+    line-height: 10px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.footer .container-footer .marketplace-box
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 117px;
+}
+
+.footer .container-footer .marketplace-box .light-text
+{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.footer .container-footer .marketplace-box .light-text:hover
+{
+    transition: 0.2s;
+    color: #5E23D9;
+}
+
+.footer .container-footer .newsletter-box .newsletter-icons-box .newsletter-icon
+{
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.footer .container-footer .newsletter-box .newsletter-icons-box .newsletter-icon:hover
+{
+    transition: 0.3s;
+    transform: scale(0.9);
+}
+
+.footer .container-footer .resources-box
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 117px;
+}
+
+.footer .container-footer .resources-box .light-text
+{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.footer .container-footer .resources-box .light-text:hover
+{
+    transition: 0.2s;
+    color: #5E23D9;
+}
+
+.footer .container-footer .send-message-box .light-text
+{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+
+
+.footer .container-footer .send-message-box .send-message-img
+{
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 24px;
+    margin-left: 268px;
+}
+
+.footer .container-footer .send-message-box .enter-mail
+{
+    margin-top: 24px;
+    width: 230px;
+    height: 48px;
+    border-radius: 4px;
+    background: transparent;
+    border: 0.6px solid #d7d7d7;
+    font-size: 14px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    color: #d7d7d7;
+    padding-left: 16px;
+    padding-right: 72px;
+}
+
 
 /* Animation */
   
