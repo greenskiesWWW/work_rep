@@ -559,6 +559,109 @@ body
     margin-left: 12px;
 }
 
+.nfts-block .nfts-items
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nfts-block .nfts-main-text
+{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-bottom: 100px;
+
+}
+
+.nfts-block .left-item
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nfts-items
+{
+    padding: 25px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #211538;
+}
+
+.nfts-block
+{
+    margin-bottom: 130px;
+}
+
+.nfts-block .mid-item
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #301C49;
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: #C522E44D;
+
+    padding: 25px;
+
+    margin-top: -70px;
+}
+
+
+.nfts-block .right-item
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nfts-block .items-main-text
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 33px;
+    text-align: center;
+    width: 259px;
+    height: 33px;
+    margin: 10px;
+
+}
+
+.nfts-block .items-text
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-align: center;
+    width: 255px;
+    height: 63px;
+    margin: 10px;
+}
+
+.nfts-block .nfts-img
+{
+    width: 88px;
+    height: 88px;
+    margin-bottom: 20px;
+}
+
 .galleries-box .info-cards .item
 {
     padding: 15px;
