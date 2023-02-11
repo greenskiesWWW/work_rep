@@ -459,6 +459,15 @@ body
     user-select: none;
 }
 
+.nfts-block .nfts-img
+{
+    pointer-events: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
 .main-box .main-bottom-box .history-box-text
 {
     display: flex;
@@ -1092,6 +1101,7 @@ body
     cursor: pointer;
     transition: 0.4s;
     margin-right: 117px;
+    
 }
 
 .read-more-button:hover
@@ -1111,6 +1121,7 @@ body
     align-items: center;
     margin-right: 24px;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .share-box
@@ -1123,6 +1134,7 @@ body
     justify-content: center;
     align-items: center;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .chat-box:hover
@@ -1235,7 +1247,7 @@ body
 
 
 
-.footer .container-footer .send-message-box .send-message-img
+.footer .container-footer .send-message-box .send-message-img-button
 {
     width: 52px;
     height: 52px;
@@ -1243,6 +1255,13 @@ body
     z-index: 1;
     margin-top: 24px;
     margin-left: 268px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    transition: 0.4s;
 }
 
 .footer .container-footer .send-message-box .enter-mail
@@ -1259,8 +1278,14 @@ body
     color: #d7d7d7;
     padding-left: 16px;
     padding-right: 72px;
+    transition: 0.4s;
 }
 
+.footer .container-footer .send-message-box .enter-mail:focus
+{
+
+    transition: 0.4s;
+}
 
 /* Animation */
   
