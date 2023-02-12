@@ -120,6 +120,14 @@ body
     transition: 0.2s;
 }
 
+.eth-adress
+{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color:white;
+}
+
 .login-box .nav-link:hover
 {
     transition: 0.2s;
