@@ -59,7 +59,7 @@ async function Connect(){
 }
 
 
-function disconect()
+function disconnect()
 {
     location.reload()
 }
