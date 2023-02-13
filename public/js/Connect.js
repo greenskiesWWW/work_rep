@@ -12,7 +12,7 @@ async function Connect(){
         .then((accounts) => {
 
           const account = accounts[0]
-                walletID.innerHTML = "<span class='eth-adress'>"+account.substring(0,23)+"</span>";
+                walletID.innerHTML = "<button onclick='openDrop()' id='eth-adress' class='eth-adress'>"+account.substring(0,23)+"</button>";
 
         }).catch((error) => {
             // Handle error

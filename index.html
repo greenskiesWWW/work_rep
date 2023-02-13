@@ -26,9 +26,17 @@
             </div>
             <div class="button-box">
                 <ul id="address" class="login-box">
-                    <a class="nav-link" href="#"><li class="Login">Login</li></a>
-                    <button onClick="Connect();" class="SingUp-button" onclick=""><li class="SingUp">Sing Up</li></button>
+                    <a onClick="Connect();" class="nav-link" href="#"><li class="Login">Login</li></a>
+                    <button onClick="Connect();" class="SingUp-button"><li class="SingUp">Sign Up</li></button>
                 </ul>
+            </div>
+            <div id="drop_menu" class="drop-menu-box">       
+                <div class="balance-box">
+                    <p class="balance">Balance: 15ETH</p>
+                </div>
+                <div class="disconnect-box">
+                    <button onclick="Disconnect()" class="disconnect-button">Disconnect</button>
+                </div>
             </div>
         </nav>
         <!-- End Navigation box -->
@@ -558,4 +566,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="public/js/Galleries.js"></script>
     <script src="public/js/Connect.js"></script>
+    <script src="public/js/drop-menu.js"></script>
 </html>
