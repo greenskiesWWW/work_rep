@@ -1368,6 +1368,7 @@ body
     font-family: 'Open Sans';
     font-weight: 500;
     color: white;
+    cursor: pointer;
 }
 
 /* Animation */
