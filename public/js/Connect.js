@@ -1,6 +1,31 @@
 // var web3;
 
 const walletID = document.getElementById("address");
+const balanceID = document.getElementById("eth_balance");
+let account;
+let balance;
+
+
+async function getBalance()
+{
+    ethereum
+    .request({ method: "eth_getBalance", params: [account, "latest"]})
+    .then((balance) => {
+
+        console.log(balance)
+
+        balance = parseInt(balance, 16) / Math.pow(10, 18);;
+            balanceID.innerHTML = "<span class='eth-adress'>Balance: "+balance+" ETH</span>";
+
+    }).catch((error) => {
+        // Handle error
+        console.log(error, error.code);
+
+        // 4001 - The request was rejected by the user
+        // -32602 - The parameters were invalid
+        // -32603- Internal error
+    });
+}
 
 async function Connect(){
 
@@ -11,8 +36,9 @@ async function Connect(){
         .request({ method: "eth_requestAccounts" })
         .then((accounts) => {
 
-          const account = accounts[0]
-                walletID.innerHTML = "<button onclick='openDrop()' id='eth-adress' class='eth-adress'>"+account.substring(0,23)+"</button>";
+        account = accounts[0];
+            walletID.innerHTML = "<button onclick='openDrop()' id='eth-adress' class='eth-adress'>"+account.substring(0,23)+"</button>";
+            getBalance();
 
         }).catch((error) => {
             // Handle error
@@ -22,22 +48,18 @@ async function Connect(){
             // -32602 - The parameters were invalid
             // -32603- Internal error
         });
+
+        // Баланс
+    
         
     } else {
         window.open("https://metamask.io/download/", "_blank");
     }
 
-    // await window.web3.currentProvider.enable();
-    // web3 = new web3(window.web3.currentProvider);
+}
 
-    // if(!web3.isConnected()) {
-    //     console.error("Not connected");
-    // }
 
-    // console.log(web3);
-
-    // var account = web3.currentProvider.selectedAddress;
-    // console.log(account);
-    // document.getElementById("address").innerHTML = account;
-
+function disconnect()
+{
+    location.reload()
 }
