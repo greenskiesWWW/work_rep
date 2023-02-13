@@ -35,14 +35,9 @@ async function Connect(){
         .request({ method: "eth_requestAccounts" })
         .then((accounts) => {
 
-<<<<<<< HEAD
-          account = accounts[0];
-                walletID.innerHTML = "<span class='eth-adress'>"+account.substring(0,23)+"</span>";
-                getBalance();
-=======
-          const account = accounts[0]
-                walletID.innerHTML = "<button onclick='openDrop()' id='eth-adress' class='eth-adress'>"+account.substring(0,23)+"</button>";
->>>>>>> 24f79e05a84a766c277e0927c7300bd6af0039f0
+        account = accounts[0];
+            walletID.innerHTML = "<button onclick='openDrop()' id='eth-adress' class='eth-adress'>"+account.substring(0,23)+"</button>";
+            getBalance();
 
         }).catch((error) => {
             // Handle error
