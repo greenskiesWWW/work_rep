@@ -1,6 +1,7 @@
 // var web3;
 
 const walletID = document.getElementById("address");
+const balanceID = document.getElementById("eth_balance");
 let account;
 let balance;
 
@@ -14,7 +15,7 @@ async function getBalance()
         console.log(balance)
 
         balance = parseInt(balance, 16) / Math.pow(10, 18);;
-            walletID.innerHTML = "<span class='eth-adress'>"+balance+"</span>";
+            balanceID.innerHTML = "<span class='eth-adress'>Balance: "+balance+" ETH</span>";
 
     }).catch((error) => {
         // Handle error
@@ -58,10 +59,7 @@ async function Connect(){
 }
 
 
-async function disconect()
+function disconect()
 {
-    var tokenBalance = await sttcontract.methods.balanceOf(addr).call();
-    tokenBalance = ethers.utils.formatEther(tokenBalance);
-    tokenBalance = (+tokenBalance).toFixed(4);
-    console.log(tokenBalance);
+    location.reload()
 }
