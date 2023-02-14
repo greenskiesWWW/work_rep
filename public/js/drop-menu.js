@@ -27,3 +27,6 @@ function openDrop(){
     } 
 }        
 
+function all_chains_menu(){
+    alert("lol");
+}
