@@ -128,12 +128,12 @@ body
 
 .balanceWallet
 {
-    text-align: center;
+    text-align: end;
 }
 
 .sellBalance
 {
-    text-align: center;
+    text-align: end;
     margin-left: 20px;
 }
 
