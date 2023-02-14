@@ -15,7 +15,7 @@ async function getBalance()
         console.log(balance)
 
         balance = parseInt(balance, 16) / Math.pow(10, 18);;
-            balanceID.innerHTML = "<span class='eth-adress'>Balance: "+balance+" ETH</span>";
+            balanceID.innerHTML = "<span class='eth-adress'>"+balance+" <span class='balance-span'>ETH</span></span>";
 
     }).catch((error) => {
         // Handle error
@@ -37,7 +37,7 @@ async function Connect(){
         .then((accounts) => {
 
         account = accounts[0];
-            walletID.innerHTML = "<button onclick='openDrop()' id='eth-adress' class='eth-adress'>"+account.substring(0,23)+"</button>";
+            walletID.innerHTML = account;
             getBalance();
 
         }).catch((error) => {
