@@ -167,8 +167,84 @@ body
     color: #BB21E6;
 }
 
+.top-seller-box
+{
+    margin-top: 67px;
+    border-bottom: 1px solid #72339B;
+}
 
+.top-seller-text
+{
+    margin: 0;
+    margin-left: 24px;
+    margin-bottom: 9px;
+    font-family: 'Ruda';
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
 
+.stats-box
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats-text
+{
+    color: #757575;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.seller-info-box
+{
+    display: flex;
+    background-color: #301C49;
+}
+
+.seller-img
+{
+    margin-left: 95px;
+}
+
+.seller-text
+{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 150px;
+}
+
+.seller-artworks
+{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 165px;
+}
+
+.seller-total-sell
+{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 235px;
+}
+
+.seller-total-vol
+{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 215px;
+}
+
+.transparent-seller-info-box
+{
+    display: flex;
+    margin-top: 12px;
+}
 
 /* selectBox */
 .selectbox {
