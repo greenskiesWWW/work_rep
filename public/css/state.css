@@ -167,9 +167,40 @@ body
     color: #BB21E6;
 }
 
+.main-box
+{
+    height: auto;
+    margin-bottom: 68px;
+    margin-top: 41px;
+    border: 1px solid #72339B;
+}
 
+.left-blog-img
+{
+    margin-right: 27px;
+    width: 403px;
+    height: 407px;
+    margin-left: 20px;
+    margin-top: 9px;
+}
 
+.span-text
+{
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
 
+.main-text
+{
+    color: #9B9B9B;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 22px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
 
 .footer
 {
