@@ -8,6 +8,41 @@
     <title>Document</title>
 </head>
 <body>
-    <img class="background" src="public/img/bg.png" alt="">
+    <img class="background" src="../public/img/bg.png" alt="">
+    <div class="container">
+        <nav class="nav-box">
+            <div class="logo-box">
+                <a class="logo-link" href="index.html"><img class="logo-img" src="../public/img/logo.svg"></a> 
+                <select name="" id="" class="chains-menu">
+                    <option value="">
+                    <img class="chains-img" src="../public/img/nft (1) 2.svg">
+                    All chains
+                    </option>
+                    <option value="">
+                        Ethereum
+                    </option>
+                </select>          
+                <!-- <div onclick="all_chains_menu()" class="chains-menu">
+                    <img class="chains-img" src="../public/img/nft (1) 2.svg">
+                    <p class="chains-text">All chains</p>
+                    <img class="chains-arrow" src="../public/img/arrow-down-lk.svg">
+                </div> -->
+                <!-- <div class="chains-menu-drop">
+                    <img class="chains-img" src="../public/img/nft (1) 2.svg">
+                    <p class="chains-text">All chains</p>
+                    <img class="chains-arrow" src="../public/img/arrow-down-lk.svg">
+                </div> -->
+            </div>
+            <div class="wallet-name-box">
+                <input type="text" name="" id="myInputAdress" hidden>
+                <p class="wallet-name" onclick="copy()" id="address">Loading...</p>
+            </div>
+        </nav>
+        <main class="main-box">
+            
+        </main>
+    </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="../public/js/selectBoxStyler.js"></script>
 </html>
