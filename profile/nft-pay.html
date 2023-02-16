@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/nft-pay.css">
+    <title>nft-pay</title>
+</head>
+<body>
+
+    <img class="background" src="../public/img/bg.png" alt="">
+    <div class="container">
+
+    <!-- Navigation Box -->
+    <nav class="nav-box">
+        <div class="logo-box">
+            <a class="logo-link" href="index.html"><img class="logo-img" src="../public/img/logo.svg"></a> 
+            <select name="" id="" class="chains-menu">
+                <option value="">
+                <img class="chains-img" src="../public/img/nft (1) 2.svg">
+                All chains
+                </option>
+                <option value="">
+                    Ethereum
+                </option>
+            </select>          
+            <!-- <div onclick="all_chains_menu()" class="chains-menu">
+                <img class="chains-img" src="../public/img/nft (1) 2.svg">
+                <p class="chains-text">All chains</p>
+                <img class="chains-arrow" src="../public/img/arrow-down-lk.svg">
+            </div> -->
+            <!-- <div class="chains-menu-drop">
+                <img class="chains-img" src="../public/img/nft (1) 2.svg">
+                <p class="chains-text">All chains</p>
+                <img class="chains-arrow" src="../public/img/arrow-down-lk.svg">
+            </div> -->
+        </div>
+        <div class="wallet-name-box">
+            <input type="text" name="" id="myInputAdress" hidden>
+            <p class="wallet-name" onclick="copy()" id="address">Loading...</p>
+        </div>
+    </nav>
+    <!-- End Navigation Box -->
+
+    <!-- Main Box -->
+
+    <main class="main-box">
+        <div class="upper-main-box">
+            <div class="avatar-main-box">
+                <img class="price-img" src="../public/img/nft-image.png">
+            </div>
+            <div class="total-price-box">
+                <div class="name-price-box">
+                    <div class="up-text-box">
+                        <p class="up-text">ABC #7777</p>
+                        <img class="rating-img" src="../public/img/rating.svg">
+                        <p class="up-text">5462</p>
+                    </div>
+                    <div class="bot-text-box">
+                        <p class="bot-text">ABC</p>
+                    </div>                    
+                </div>
+                <div class="main-price-box">
+                    <div class="main-price">
+                        <div class="up-main-price">
+                            <div class="name-price-text-box">
+                                <ul class="name-price-text">
+                                    <li>
+                                        <p class="light-price-text">List Price</p>
+                                    </li>
+                                    <li>
+                                        <p class="light-price-text">Taker Fee</p>
+                                    </li>
+                                    <li>
+                                        <p class="light-price-text">Royalty</p>
+                                    </li>
+                                    <li class="li-margin">
+                                        <p class="bold-price-text">Points Earned</p>
+                                    </li>
+                                    <li>
+                                        <p class="bold-price-text">Total</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="price-text-box">
+                                
+                            </div>
+                        </div>
+                        <div class="bot-main-price">
+                            <div class="crypt-choice-box">
+                                <div class="crypt-choice-img">
+                                    <img class="crypto-img" src="../public/img/eth-img.svg">
+                                </div>
+                                <div class="crypt-choice-text">
+                                    <p class="up-crypt-choice-text">Pay in ETH</p>
+                                    <p class="bot-crypt-choice-text">Connect supported wallet</p>
+                                </div>
+
+                            </div>
+                            <div class="button-box">
+                                <button class="end-button">OK</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center-main-box">
+            
+        </div>
+        <div class="botton-main-box">
+            
+        </div>
+    </main>
+
+    <!-- End Main Box -->
+
+    </div>
+    
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="../public/js/selectBoxStyler.js"></script>
+</html>
