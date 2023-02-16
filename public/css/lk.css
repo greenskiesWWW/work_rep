@@ -203,6 +203,7 @@ body
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .main-box
@@ -210,6 +211,12 @@ body
     height: 650px;
     border: 1px solid #301C49;
     margin-bottom: 46px;
+    display: none;
+}
+
+.main-box-activity
+{
+    display: block;
 }
 
 .main-box .main-content-box
