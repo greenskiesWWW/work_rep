@@ -167,6 +167,11 @@ body
     color: #BB21E6;
 }
 
+.main-box
+{
+    margin-bottom: 64px;
+}
+
 .main-box .upper-main-box
 {
     display: flex;
@@ -229,6 +234,7 @@ body
 .main-box .main-price-box .up-main-price
 {
     display: flex;
+    justify-content: space-between;
 }
 
 .main-box .main-price-box .up-main-price .name-price-text-box .name-price-text
@@ -258,6 +264,78 @@ body
 .main-box .main-price-box .up-main-price .name-price-text-box .name-price-text .li-margin
 {
     margin-top: 37px;
+}
+
+.main-box .main-price-box .up-main-price .price-text-box .price-text
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    padding-right: 35px;
+    padding-top: 18px;
+    margin-top: 0;
+}
+
+.main-box .main-price-box .up-main-price .price-text-box .price-text li
+{
+    display: flex;
+    text-align: right;
+    align-items: center;
+
+    /* height: 15px; */
+    /* margin-top: 2px; */
+}
+
+.main-box .main-price-box .up-main-price .price-text-box .price-text li .crypto-img
+{
+    width: 13px;
+    height: 21px;
+    margin-right: 5px;
+
+    pointer-events: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.main-box .main-price-box .up-main-price .price-text-box .price-text li .white-light-price-text
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    line-height: 0px;
+
+    /* margin-bottom: -1px; */
+}
+
+.main-box .main-price-box .up-main-price .price-text-box .price-text li .light-price-text
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    line-height: 0px;
+}
+
+.main-box .main-price-box .up-main-price .price-text-box .price-text li .pink-bold-price-text
+{
+    font-size: 23px;
+    font-weight: 600;
+    color: #BB21E6;
+    line-height: 0px;
+
+    margin-top: 27px;
+    margin-bottom: 15px;
+}
+
+.main-box .main-price-box .up-main-price .price-text-box .price-text li .bold-price-text
+{
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+    line-height: 0px;
 }
 
 .main-box .main-price-box .bot-main-price 
@@ -329,12 +407,55 @@ body
     font-weight: 600;
     color: white;
     transition: 0.4s;
+
+    cursor: pointer;
 }
 
 .main-box .main-price-box .bot-main-price .button-box .end-button:hover
 {
     transition: 0.4s;
     transform: scale(0.97);
+}
+
+.main-box .center-main-box .details
+{
+    width: 467px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid #72339B;
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.main-box .center-main-box .details .summary-details
+{
+    height: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;   
+}
+
+.main-box .center-main-box .details .summary-details .arrow-details
+{
+    width: 18px;
+}
+
+.main-box .center-main-box .details .open-details-block
+{
+    margin-top: 6px;
+
+    width: 467px;
+    height: 296px;
+    border-radius: 5px;
+    background: #301C49;
 }
 
 /* selectBox */
@@ -443,3 +564,145 @@ li a:hover
     padding-bottom: 14px;
     border-bottom: 3px solid #64379b;
 }
+
+/* footer */
+
+.footer
+{
+    margin-bottom: 56px;
+    display: flex;
+}
+
+.footer .container-footer
+{
+    display: flex;
+}
+
+.footer .container-footer .newsletter-box
+{
+    margin-right: 117px;
+}
+
+.footer .container-footer .newsletter-box .newsletter-text-box
+{
+    margin-bottom: 32px;
+}
+
+.footer .container-footer .bold-text
+{
+    font-size: 24px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    color: white;
+}
+
+.footer .container-footer .light-text
+{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: #D7D7D7;
+    line-height: 10px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.footer .container-footer .marketplace-box
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 117px;
+}
+
+.footer .container-footer .marketplace-box .light-text
+{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.footer .container-footer .marketplace-box .light-text:hover
+{
+    transition: 0.2s;
+    color: #5E23D9;
+}
+
+.footer .container-footer .newsletter-box .newsletter-icons-box .newsletter-icon
+{
+    margin-right: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.footer .container-footer .newsletter-box .newsletter-icons-box .newsletter-icon:hover
+{
+    transition: 0.3s;
+    transform: scale(0.9);
+}
+
+.footer .container-footer .resources-box
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 117px;
+}
+
+.footer .container-footer .resources-box .light-text
+{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.footer .container-footer .resources-box .light-text:hover
+{
+    transition: 0.2s;
+    color: #5E23D9;
+}
+
+.footer .container-footer .send-message-box .light-text
+{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+
+
+.footer .container-footer .send-message-box .send-message-img-button
+{
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 24px;
+    margin-left: 268px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.footer .container-footer .send-message-box .enter-mail
+{
+    margin-top: 24px;
+    width: 230px;
+    height: 48px;
+    border-radius: 4px;
+    background: transparent;
+    border: 0.6px solid #d7d7d7;
+    font-size: 14px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    color: #d7d7d7;
+    padding-left: 16px;
+    padding-right: 72px;
+    transition: 0.4s;
+}
+
+.footer .container-footer .send-message-box .enter-mail:focus
+{
+
+    transition: 0.4s;
+}
+
