@@ -167,8 +167,228 @@ body
     color: #BB21E6;
 }
 
+.main-box
+{
+    margin-bottom: 68px;
+}
+
+.top-seller-box
+{
+    margin-top: 67px;
+    border-bottom: 1px solid #72339B;
+}
+
+.top-seller-text
+{
+    margin: 0;
+    margin-left: 24px;
+    margin-bottom: 9px;
+    font-family: 'Ruda';
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+
+.stats-box
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats-text
+{
+    color: #757575;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.seller-info-box
+{
+    display: flex;
+    background-color: #301C49;
+}
+
+.seller-img
+{
+    margin-left: 95px;
+}
+
+.seller-text
+{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 150px;
+}
+
+.seller-artworks
+{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 165px;
+}
+
+.seller-total-sell
+{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 235px;
+}
+
+.seller-total-vol
+{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 215px;
+}
+
+.transparent-seller-info-box
+{
+    display: flex;
+    margin-top: 12px;
+}
+
+.footer
+{
+    margin-bottom: 56px;
+    display: flex;
+}
+
+.footer .container-footer
+{
+    display: flex;
+}
+
+.footer .container-footer .newsletter-box
+{
+    margin-right: 117px;
+}
+
+.footer .container-footer .newsletter-box .newsletter-text-box
+{
+    margin-bottom: 32px;
+}
+
+.footer .container-footer .bold-text
+{
+    font-size: 24px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    color: white;
+}
+
+.footer .container-footer .light-text
+{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: #D7D7D7;
+    line-height: 10px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.footer .container-footer .marketplace-box
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 117px;
+}
+
+.footer .container-footer .marketplace-box .light-text
+{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.footer .container-footer .marketplace-box .light-text:hover
+{
+    transition: 0.2s;
+    color: #5E23D9;
+}
+
+.footer .container-footer .newsletter-box .newsletter-icons-box .newsletter-icon
+{
+    margin-right: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.footer .container-footer .newsletter-box .newsletter-icons-box .newsletter-icon:hover
+{
+    transition: 0.3s;
+    transform: scale(0.9);
+}
+
+.footer .container-footer .resources-box
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 117px;
+}
+
+.footer .container-footer .resources-box .light-text
+{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.footer .container-footer .resources-box .light-text:hover
+{
+    transition: 0.2s;
+    color: #5E23D9;
+}
+
+.footer .container-footer .send-message-box .light-text
+{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
 
 
+
+.footer .container-footer .send-message-box .send-message-img-button
+{
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 24px;
+    margin-left: 268px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.footer .container-footer .send-message-box .enter-mail
+{
+    margin-top: 24px;
+    width: 230px;
+    height: 48px;
+    border-radius: 4px;
+    background: transparent;
+    border: 0.6px solid #d7d7d7;
+    font-size: 14px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    color: #d7d7d7;
+    padding-left: 16px;
+    padding-right: 72px;
+    transition: 0.4s;
+}
+
+.footer .container-footer .send-message-box .enter-mail:focus
+{
+
+    transition: 0.4s;
+}
 
 /* selectBox */
 .selectbox {
