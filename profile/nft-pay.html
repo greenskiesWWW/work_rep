@@ -44,7 +44,6 @@
     <!-- End Navigation Box -->
 
     <!-- Main Box -->
-
     <main class="main-box">
         <div class="upper-main-box">
             <div class="avatar-main-box">
@@ -130,26 +129,107 @@
         </div>
         <div class="center-main-box">
             <div class="details-box">
-                <details class="details">
+                <details onclick="scaleArrow_details()" class="details">
                     <summary class="summary-details">
                         Details
-                        <img class="arrow-details" src="../public/img/arrow-down-lk.svg">
+                        <img id="arrow_details" class="arrow-details" src="../public/img/arrow-down-lk.svg">
                     </summary>
                     <div class="open-details-block">
-                        <img>
+                        <img class="graph-img" src="../public/img/graph.png">
+                    </div>
+                </details>
+                <details onclick="scaleArrow()" class="atribute">
+                    <summary class="summary-atribute">
+                        Atribute
+                        <img id="arrow_atribute" class="arrow-atribute" src="../public/img/arrow-down-lk.svg">
+                    </summary>
+                    <div class="open-atribute-block">
+                        <div class="atribute-text-box">                            
+                            <div class="atribute-left-text-box">
+                                <p class="atribute-text">Mint Adress</p>
+                            </div>
+                            <div class="atribute-right-text-box">
+                                <img class="crypto-img" src="../public/img/eth-img.svg">
+                                <p class="atribute-text">3Ep4x ... bu7</p>
+                            </div>                            
+                        </div>
+                        <div class="atribute-text-box">                            
+                            <div class="atribute-left-text-box">
+                                <p class="atribute-text">On-chain Collection</p>
+                            </div>
+                            <div class="atribute-right-text-box">
+                                <img class="crypto-img" src="../public/img/eth-img.svg">
+                                <p class="atribute-text">3Ep4x ... bu7</p>
+                            </div>                            
+                        </div>
+                        <div class="atribute-text-box">                            
+                            <div class="atribute-left-text-box">
+                                <p class="atribute-text">Token Adress</p>
+                            </div>
+                            <div class="atribute-right-text-box">
+                                <img class="crypto-img" src="../public/img/eth-img.svg">
+                                <p class="atribute-text">3Ep4x ... bu7</p>
+                            </div>                            
+                        </div>
+                        <div class="atribute-text-box">                            
+                            <div class="atribute-left-text-box">
+                                <p class="atribute-text">Owner</p>
+                            </div>
+                            <div class="atribute-right-text-box">
+                                <img class="crypto-img" src="../public/img/eth-img.svg">
+                                <p class="atribute-text">3Ep4x ... bu7</p>
+                            </div>                            
+                        </div>
                     </div>
                 </details>
             </div>
         </div>
-        <div class="botton-main-box">
-            
+        <div class="bottom-main-box">
+            <div class="details-box">
+                <details class="details">
+                    <summary class="summary-details">
+                        Offer`s
+                        <img id="arrow_details" class="arrow-details" src="../public/img/arrow-down-lk.svg">
+                    </summary>
+                    <div class="open-details-block">
+                        <div class="details-text-box">                            
+                            <div class="details-left-text-box">
+                                <p class="light-details-text">Price</p>
+                                <p class="details-text">90 ETH</p>
+                                <p class="details-text">200 ETH</p>
+                                <p class="details-text">247 ETH</p>
+                                <p class="details-text">35 ETH</p>
+                                <p class="details-text">85 ETH</p>
+                                <p class="details-text">24 ETH</p>
+                            </div>
+                            <div class="details-center-text-box">
+                                <p class="light-details-text">Expires at</p>
+                                <p class="details-text">2023.02.16 10:23</p>
+                                <p class="details-text">2023.02.19 11:23</p>
+                                <p class="details-text">2023.02.21 21:22</p>
+                                <p class="details-text">2023.02.27 18:43</p>
+                                <p class="details-text">2023.03.01 13:58</p>
+                                <p class="details-text">2023.02.25 03:54</p>
+                            </div> 
+                            <div class="details-right-text-box">
+                                <p class="light-details-text">From</p>
+                                <p class="details-text">3F51x ... Kla</p>
+                                <p class="details-text">3F51x ... Kla</p>
+                                <p class="details-text">3F51x ... Kla</p>
+                                <p class="details-text">3F51x ... Kla</p>
+                                <p class="details-text">3F51x ... Kla</p>
+                                <p class="details-text">3F51x ... Kla</p>
+
+                            </div>                            
+                        </div>
+                    </div>
+                </details>                
+            </div>
         </div>
     </main>
-
     <!-- End Main Box -->
 
     <!-- Footer box -->
-
     <footer class="footer">
         <div class="container-footer">
             <div class="newsletter-box">
@@ -188,7 +268,6 @@
             </div>
         </div>
     </footer>
-
     <!-- End Footer box -->
 
     </div>
@@ -198,4 +277,5 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script src="../public/js/selectBoxStyler.js"></script>
+<script src="../public/js/scaleArrow.js"></script>
 </html>
