@@ -33,6 +33,14 @@ body
 
 /* Base Style */
 
+.wallet-name-box .wallet-name
+{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
 .background
 {
     pointer-events: none;
