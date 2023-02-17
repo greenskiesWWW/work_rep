@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/state.css">
+    <title>Document</title>
+</head>
+<body>
+    <img class="background" src="public/img/bg.png" style="opacity: 0.5;" alt="">
+    <div class="container">
+
+        <!-- Navigation Box -->
+        <nav class="nav-box">
+            <div class="logo-box">
+                <a class="logo-link" href="index.html"><img class="logo-img" src="public/img/logo.svg"></a>
+            </div>
+            <div class="link-box">
+                <ul class="info-links">
+                    <a class="nav-link" href="#"><li>Home</li></a>
+                    <a class="nav-link" href="#"><li>Market</li></a>
+                    <a class="nav-link" href="#"><li>Artist</li></a>
+                    <a class="nav-link" href="#"><li>Community</li></a>
+                    <a class="nav-link" href=""><li>Wallet</li></a>
+                </ul>
+            </div>
+            <div class="button-box">
+                <ul id="address" class="login-box">
+                    <a onClick="Connect();" class="nav-link" href="#"><li class="Login">Login</li></a>
+                    <button onClick="Connect();" class="SingUp-button"><li class="SingUp">Sign Up</li></button>
+                </ul>
+            </div>
+            <div id="drop_menu" class="drop-menu-box">       
+                <div class="balance-box">
+                    <p id="eth_balance" class="balance">Balance: 0 ETH</p>
+                </div>
+                <div class="disconnect-box">
+                    <div href="profile/" class="disconnect-button"><a href="profile/">Profile</a></div>
+                </div>
+                <div class="disconnect-box">
+                    <button onclick="disconnect()" class="disconnect-button">Disconnect</button>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navigation Box -->
+
+        <!-- Main Box -->
+
+        <main class="main-box">
+            <div class="left-blog">
+                <img class="left-blog-img" src= "public/img/left-blog-img.png" align="left">
+                <p class="span-text">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                     elit, sed do eiusmod tempor incididunt ut labore et
+                      dolore magna aliqua. Amet nisl purus in mollis.
+                       Quisque id diam vel quam elementum pulvinar etiam
+                        non. Et sollicitudin ac orci phasellus egestas. Velit
+                         dignissim sodales ut eu sem integer vitae justo.
+                          Pellentesque elit ullamcorper dignissim cras tincidunt.
+                           Vitae ultricies leo integer malesuada nunc vel risus
+                            commodo. Consectetur libero id faucibus nisl
+                             tincidunt eget nullam. Risus nullam eget
+                              felis eget nunc lobortis mattis. Urna nec tincidunt praesent
+                               semper feugiat nibh sed pulvinar proin.
+                               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Amet commodo nulla facilisi nullam vehicula ipsum a arcu
+                                 cursus. Morbi tristique senectus et netus et malesuada fames ac. Leo urna molestie at
+                                  elementum. Magna sit amet purus gravida quis blandit turpis cursus. Tellus at urna
+                                   condimentum mattis pellentesque id nibh tortor. Bibendum arcu vitae elementum curabitur
+                                    vitae nunc sed velit dignissim.<br><br> Cursus mattis molestie a iaculis at erat pellentesque. Convallis
+                                     tellus id interdum velit. Ut aliquam purus sit amet luctus venenatis lectus magna. Tempor nec
+                                      feugiat nisl pretium fusce. Vitae aliquet nec ullamcorper sit amet risus nullam eget. Massa vitae
+                                       tortor condimentum lacinia quis vel eros donec. Convallis tellus id interdum velit laoreet id
+                                        donec ultrices tincidunt. Sed libero enim sed faucibus turpis in. Quis risus sed vulputate odio ut
+                                         enim. Egestas integer eget aliquet nibh praesent. Sit amet est placerat in egestas erat. Aliquam
+                                          etiam erat velit scelerisque in dictum non consectetur.
+                    Venenatis cras sed felis eget velit aliquet. Eros donec ac odio tempor. Maecenas sed enim ut
+                     sem. Commodo sed egestas egestas fringilla. Ullamcorper a lacus vestibulum sed. Varius vel
+                      pharetra vel turpis nunc eget lorem dolor. Viverra ipsum nunc aliquet bibendum enim facilisis.
+                       Dolor purus non enim praesent elementum facilisis. Ipsum a arcu cursus vitae congue. Lectus
+                        sit amet est placerat in egestas erat imperdiet.</p>
+            </div>
+        </main>
+
+        <!-- End Main Box -->
+
+        <!-- Footer box -->
+        <footer class="footer">
+            <div class="container-footer">
+                <div class="newsletter-box">
+                    <div class="newsletter-text-box">
+                        <p class="bold-text">Newslatter</p>
+                        <p class="light-text">Lorem ipsum dolor sit amet, consectetur</p>
+                        <p class="light-text">adipiscing elit amet.</p>
+                    </div>
+                    <div class="newsletter-icons-box">
+                        <a href="instagram.com"><img class="newsletter-icon" src="public/img/instagram.svg"></a>
+                        <a href="facebook.com"><img class="newsletter-icon" src="public/img/facebook.svg"></a>
+                        <a href="twitter.com"><img class="newsletter-icon" src="public/img/twitter.svg"></a>
+                    </div>
+                </div>
+                <div class="marketplace-box">
+                    <p class="bold-text">Marketplace</p>
+                    <a class="light-text" href="#">All NFT</a>
+                    <a class="light-text" href="#">Art</a>
+                    <a class="light-text" href="#">Music</a>
+                    <a class="light-text" href="#">Domain Names</a>
+                </div>
+                <div class="resources-box">
+                    <p class="bold-text">Resources</p>
+                    <a class="light-text" href="#">Home</a>
+                    <a class="light-text" href="#">Partners</a>
+                    <a class="light-text" href="#">Suggestions</a>
+                    <a class="light-text" href="#">Discord</a>
+                </div>
+                <div class="send-message-box">
+                    <p class="bold-text">Join Our Newsletter</p>
+                    <p class="light-text">Lorem ipsum dolor sit amet, consectetur</p>
+                    <p class="light-text">adipiscing elit amet.Lorem ipsum dolor </p>
+                    <p class="light-text">sit amet, consectetur.</p>
+                    <button class="send-message-img-button" title=""><img class="send-message-img" src="public/img/send-message.svg"></button>
+                    <input class="enter-mail" type="email" placeholder="Enter email...">
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer box -->
+    </div> 
+</body>
+<script src="public/js/Connect.js"></script>
+<script src="public/js/drop-menu.js"></script>
+</html>

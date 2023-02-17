@@ -142,7 +142,7 @@ body
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 16px;
-    color: white;
+    color: white !important;
     list-style: none;
     transition: 0.4s;
     cursor: pointer;
@@ -150,6 +150,11 @@ body
 
     background: linear-gradient(101.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
     border-radius: 4px;
+
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .SingUp-button:hover
@@ -1133,6 +1138,11 @@ body
     cursor: pointer;
     transition: 0.4s;
     margin-right: 117px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     
 }
 
