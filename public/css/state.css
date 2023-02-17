@@ -171,7 +171,7 @@ body
 {
     height: auto;
     margin-bottom: 68px;
-    margin-top: 41px;
+    margin-top: 100px;
     border: 1px solid #72339B;
 }
 
@@ -196,7 +196,7 @@ body
 {
     color: #9B9B9B;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 19px;
     margin-left: 22px;
     margin-right: 50px;
     margin-top: 10px;
@@ -447,4 +447,180 @@ li a:hover
 {
     padding-bottom: 14px;
     border-bottom: 3px solid #64379b;
+}
+
+.nav-box .button-box .eth-adress
+{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.nav-box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    position: relative;
+
+    /* Animation  */
+    animation: fade-in .4s ease;
+}
+
+.nav-box .link-box .info-links 
+{
+    display: flex;
+    margin: 0;
+}
+
+.nav-box .link-box
+{
+    margin-left: 70px;
+}
+
+.info-links .nav-link
+{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin: 0 20px 0 20px;
+    transition: 0.2s;
+}
+
+.info-links .nav-link:hover
+{
+    transition: 0.2s;
+    color: #5E23D9;
+}
+
+.login-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.login-box .nav-link
+{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin: 0 20px 0 20px;
+    transition: 0.2s;
+}
+
+.eth-adress
+{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color:white;
+}
+
+.login-box .nav-link:hover
+{
+    transition: 0.2s;
+    color: #5E23D9;
+}
+
+.SingUp-button
+{
+    width: 105px;
+    height: 40px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: white !important;
+    list-style: none;
+    transition: 0.4s;
+    cursor: pointer;
+    border: transparent;
+
+    background: linear-gradient(101.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
+    border-radius: 4px;
+
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SingUp-button:hover
+{
+    transition: 0.4s;
+    transform: scale(0.9);
+}
+
+.nav-box .button-box .eth-adress
+{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.drop-menu-box
+{
+    position: absolute;
+    margin-top: 144px;
+    margin-left: 1013px;
+    border: 1px solid #8A40FF;
+    border-radius: 4px;
+    width: 250px;
+    height: 110px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.drop-menu-box .balance-box
+{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.drop-menu-box .balance-box .balance
+{
+    margin: 0;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+.drop-menu-box .disconnect-box
+{
+    margin-top: 5px;
+}
+
+.drop-menu-box .disconnect-box .disconnect-button
+{
+    width: 220px;
+    height: 30px;
+    border: transparent;
+    border-radius: 4px;
+    background: linear-gradient(98.94deg, rgba(200, 34, 228, 0.4) 2.52%, rgba(87, 25, 244, 0.4) 92.81%);
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.disconnect-button a
+{
+    color:white;
+    text-decoration: none;
+    line-height: 30px;
 }
